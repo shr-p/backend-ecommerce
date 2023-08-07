@@ -3,7 +3,7 @@ const { addToCart, fetchCartByUser, updateCart, deleteFromCart } = require('../c
 
 const router = express.Router();
 
-router.post("/", addToCart)
+router.post('/', addToCart)
       .get('/', fetchCartByUser)
       .delete('/:id', deleteFromCart)
       .patch('/:id', updateCart)

@@ -10,6 +10,7 @@ const router = express.Router();
  *   get:
  *     summary: All Brands List
  *     tags: [Fetch-Details]
+ 
  *     responses:
  *       200:
  *         description: successful

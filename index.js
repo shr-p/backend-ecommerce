@@ -124,33 +124,7 @@ async function main() {
 
 
 // Swagger
-// const swaggerOptions = {
-//   definition: {
-//     openapi: '3.0.0', // Specify the OpenAPI version
-//     info: {
-//       title: 'Your API Title', // Your API title
-//       version: '1.0.0', // Your API version
-//       description: 'Your API description', // Your API description
-//     },
-//     servers: [
-//       {
-//         url: `http://localhost:8080`, // Your server URL
-//       },
-//     ],
 
-//   },
-//   components: {
-//     securitySchemes: {
-//       BearerAuth: {
-//         type: 'http',
-//         scheme: 'bearer',
-//         bearerFormat: 'JWT', // You can specify the token format (JWT, etc.)
-//       },
-//     },
-//   },
-//   security: [{ BearerAuth: [] }], // Apply BearerAuth as a global security scheme for all endpoints
-//   apis: ['./routes/*.js'], // Specify the path to your API routes
-// };
 const swaggerOptions = {
   definition: {
     openapi: '3.0.0', // Specify the OpenAPI version

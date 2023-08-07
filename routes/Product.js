@@ -17,20 +17,15 @@ const router = express.Router();
  *     tags: [Fetch-Details]
 *     parameters:
  *       - in: query
- *         name: sort
+ *         name: _sort
  *         schema:
  *           type: string
  *         description: Sort the products based on a specific criteria (e.g., 'name', 'price', 'category')
  *       - in: query
- *         name: page
+ *         name: _order
  *         schema:
- *           type: integer
- *         description: Page number for pagination (e.g., 1, 2, 3, ...)
- *       - in: query
- *         name: limit
- *         schema:
- *           type: integer
- *         description: Number of products per page (e.g., 10, 20, 30, ...)
+ *           type: string
+ *         description: Order asc  or desc
  *     responses:
  *       200:
  *         description: Login successful
